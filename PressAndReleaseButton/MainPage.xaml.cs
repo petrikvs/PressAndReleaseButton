@@ -11,13 +11,13 @@ namespace PressAndReleaseButton
 {
     public partial class MainPage : ContentPage
     {
+
         bool animationlnProgress = false;
         Stopwatch stopwatch = new Stopwatch();
 
-        public void PressAndReleaseButtonPage(){
-
+        public MainPage()
+        {
             InitializeComponent();
-
         }
 
         void OnButtonPressed(object sender, EventArgs args){

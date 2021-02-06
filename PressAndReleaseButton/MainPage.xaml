@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PressAndReleaseButton.MainPage" Title="Press and Release Button " BackgroundColor="#C9C9C9">
    <StackLayout>
-      <Label x:Name="label" Text="MPress and hold the Button below" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="Black" />
-      <Button Text="Pres to Rotate Text!" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Pressed="OnButtonPressed" Released="OnButtonReleased" TextColor="Black" />
+      <Label x:Name="label" Text="Вертеть вот это вот всё (Petrik)" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="Black" />
+      <Button Text="Rotate!!11!" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Pressed="OnButtonPressed" Released="OnButtonReleased" TextColor="Black" />
    </StackLayout>
 </ContentPage>
